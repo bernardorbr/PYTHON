@@ -9,7 +9,7 @@ for tentativa in range(3):
     if senha_digitada == senha: 
         print ("Acesso permitido")
         break
-    else: 
+    else:
         print("Acesso Negado")
 else: 
     print("Acesso Bloqueado")

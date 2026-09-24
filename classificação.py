@@ -13,4 +13,3 @@ elif media < 8 and media > 6:
     
 else:
     print("você está na turma C")
-

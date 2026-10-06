@@ -8,7 +8,7 @@ media = (float (b + c + d))/3
 
 if media >= 6:
     print("Parabéns" ,a, "Aprovado")
-elif media <=5: 
+elif media <=6:
     print("Aluno de Recuperação")
 else: 
-    print("Aluno Reprovado")
+    print("Aluno Reprovado")    

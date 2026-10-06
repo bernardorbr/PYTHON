@@ -1,8 +1,12 @@
 a = int(input("Digite um número: "))
 
-if a >0: 
-    print("Positivo")
-elif a <0:
-    print("Negativo")
+if a % 2 == 0: 
+    print("Par")
 else:
-    print("O número é zero")
+    print("Impar")
+if a >0:
+    print("Número Positivo")
+elif a <0:
+    print("Número Negativo")
+else: 
+    print("Zero")

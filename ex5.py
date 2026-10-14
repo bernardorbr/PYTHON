@@ -7,7 +7,7 @@ d = float(input("Informe a Terceira Nota: "))
 media = (float (b + c + d))/3
 
 if media >= 7:
-    print("Parabéns" ,a, "Aprovado")
+    print(f"Parabéns" ,{a}, "Aprovado")
 elif media >= 5 and media <7:
     print("Aluno de Recuperação")
 else: 
